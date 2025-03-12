@@ -1,29 +1,11 @@
 #print("Olá, mundo!")
 
 #criando e imprimindo o valor de uma variável
-#fruta = "melão"
-#print(fruta)
+fruta_citrica_maio = "melão"
+print(fruta_citrica_maio)
 
-#print (2*3+3**2)
+print (2*3+3**2)
 
-#Funçao para adicionar uma pessoa a lista
-def adicionar_pessoas(lista,nome,idade,profissao):
-    pessoa ={"nome":nome, "idade":idade,"profissao":profissao}
-    lista.append(pessoa)
+carro = "fox"
+print(carro)
 
-#função para mostrar as pessoas
-def exibir_pessoas(lista):
-    print("Lista de pessoas cadastradas")
-    for pessoa in lista:
-        print(f"Nome:{pessoa['nome']},Idade: {pessoa['idade']}, Profissao:{pessoa['profissao']}")
-
-#lista para armazenar pessoas 
-pessoas = []
-
-#adicionando pessoas em uma lista
-adicionar_pessoas(pessoas,"ana",25,"engenheira")
-adicionar_pessoas(pessoas,"leo",30,"medico")
-adicionar_pessoas(pessoas,"lucas",33,"professor")
-
-#exibir a lista de pessoas
-exibir_pessoas(pessoas)
